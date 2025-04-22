@@ -178,4 +178,4 @@ if st.button("Download History as CSV"):
     st.download_button("Download CSV", df.to_csv(index=False).encode("utf-8"), "conversion_history.csv", "text/csv")
     st.success("Download Successful! ✅")
 
-st.markdown("<div class='footer'>Created By Abdul Rehman</div>", unsafe_allow_html=Tru
+st.markdown("<div class='footer'>Created By Abdul Rehman</div>", unsafe_allow_html=True)
